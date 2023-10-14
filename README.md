@@ -1,7 +1,7 @@
 # Localization-based-on-LoRaWAN-Network
-**My bachelor project at AmirKabir University of Technology**. This is an IOT project based on LoRaWAN Communication Network that includes designing boards and Hardware, microcontroller programming, AI and data gathering. 
-In this project I'm setting up a LoRaWAN hardware infrastructure including LoRa Node and 3 Gateway, then I will gather RSSI(Receieved Signal Strength Indicator) data in a chosen location. At the end I am going to work on the gathered datasetin the campus from 3 LoRaWAN gateways.
+**My bachelor project at AmirKabir University of Technology**. Implementing and applying machine learning algorithms including neural networks to classify regions based on RSSI measurements gathered from self-implemented LoRaWAN gateways and nodes
 
+In this project I'm setting up a LoRaWAN hardware infrastructure including 2 LoRa Node and 3 Gateway, then I will gather RSSI(Receieved Signal Strength Indicator) data in a chosen location. At the end I am going to work on the gathered datasetin the campus from 3 LoRaWAN gateways.
 
 ## Table of content
     - LPWAN Technologies and LoRaWAN
@@ -33,7 +33,8 @@ In this project we chosed LoRaWAN technology mainly beacuse we wanted to exmine 
 
 
 ## Project Introduction
-The Aim of this project is to utilize LoRaWAN technology and Machine Learning approaches to develop an application that can localize an end-device using RSSI measurments. 
+The Aim of this project is to utilize LoRaWAN technology and Machine Learning approaches to develop an application that can localize an end-device using RSSI measurments.
+
 **How it works:** The data-set of RSSI measures are going to be fed into some AI machine learning algorithms. these algorithms helps us to locate the approximate position of the end-device in the mentioned area.
 
 **Used Algorithms:**
@@ -130,6 +131,4 @@ As we continue, each successive measurement has less weight in the estimation pr
 source: https://www.kalmanfilter.net/background.html
 
 The schematic of the filter used is as follows:
-![Alt text](pics/filter_schema.png
-
-)
+![Alt text](pics/filter_schema.png)
